@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+const mainColor = Color(0xff2E5A90);
+const blackDvf = Color(0xff595E63);
+const defaultBlackColor = Color(0xFF454545);
+const titleBlackColor = Color(0xFF1A1A1A);
+const grayColor = Color(0xffACACAC);
+const grayBtnColor = Color(0xffCCCCCC);
+const grayTextColor = Color(0xff656565);
+const blackColor = Color(0xff000000);
+const blackTextField = Color(0xff2D2D2D);
+const hintTextField = Color(0xffA3A3A3);
+const errorTextField = Color(0xffFF3B30);
+const keyboardTouchColor = Color(0xff302E5A90);
+const keyboardBackgroundColor = Color(0xffF7F7F7);
+const backgroundColor = Color(0xffF7F7F7);
+const btnDisableColor = Color(0xffB8B8B8);
+const dividerColor = Color(0xffCFD2D8);
+const codeCardBackgroundColor = Color(0xffD7F2DC);
+const colorShimmer = Color(0xffECEAEC);
+const successColor = Color(0xffFF31AE4A);
+const pendingColor = Color(0xffFF9500);
