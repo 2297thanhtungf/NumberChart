@@ -1,11 +1,16 @@
 import 'package:flutter/foundation.dart';
 
-class UserModel with ChangeNotifier {
+class UserModel with ChangeNotifier , DiagnosticableTreeMixin{
   String _userPhone = '0964348059';
   String _userName = 'Tung';
   Map<String, int> _quantityTypeGame = {'Lo':50,'De':10};
   double _totalBuy = 100000;
   double _totalReward = 0;
+
+  void increment() {
+    _totalBuy++;
+    notifyListeners();
+  }
 
   String get userPhone => _userPhone;
 

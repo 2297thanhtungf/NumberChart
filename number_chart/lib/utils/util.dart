@@ -5,6 +5,13 @@ class Strings{
   static String titleApp = "Thống kê số liệu";
   static String titleLogin = "Đăng nhập";
   static String start = "Bắt đầu";
+  /// title chart
+  static String customer = "Người chơi";
+  static String typeGame = "Loại chơi";
+  static String quantity = "Số lượng";
+  static String priceBuy = "Tiền thu";
+  static String priceReward = "Tiền trả";
+
 }
 void showToast(message) {
   BotToast.showText(text: message, textStyle: TextStyle(fontSize: 14, color: Colors.white));
