@@ -9,8 +9,8 @@ class Strings{
   static String customer = "Người chơi";
   static String typeGame = "Loại chơi";
   static String quantity = "Số lượng";
-  static String priceBuy = "Tiền thu";
-  static String priceReward = "Tiền trả";
+  static String priceBuy = "Tổng thu";
+  static String priceReward = "Tổng trả";
 
 }
 void showToast(message) {
